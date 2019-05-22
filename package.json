@@ -1,0 +1,31 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "This is a fictional address book app, where you can search for users addresses and personal information. The app should display a list of users for clients to browse and get personal information for a selected user.",
+  "main": "index.js",
+  "author": "Maks Okhmatenko",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.4",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@zeit/next-stylus": "^1.0.1",
+    "cross-env": "^5.2.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-size": "^2.0.2",
+    "stylus": "^0.54.5",
+    "webpack-bundle-analyzer": "^3.3.2"
+  }
+}
